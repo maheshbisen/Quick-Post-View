@@ -1,0 +1,126 @@
+﻿
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+/*background:#000;*/
+border:1px solid #cecece;
+z-index:100;  
+background:url(../images/bg-pop-up.png);
+ }
+#popupEasy{
+display:none;
+position:fixed !important;
+_position:absolute; /* hack for internet explorer 6*/
+height:575px;
+width:100%;
+background:#FFFFFF url(../images/loader-green.gif) no-repeat center center;
+border:0px solid #cecece;
+z-index:51000;
+padding:0px;
+font-size:13px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px #888;
+box-shadow: 0 0 7px #888; border-radius:10px;
+border:1px solid #a9a9a9;  
+}
+#popupEasy h1{
+text-align:left;
+color:#6FA5FD;
+font-size:22px;
+font-weight:700;
+border-bottom:1px dotted #D3D3D3;
+padding-bottom:2px;
+margin-bottom:20px;
+}
+#popupEasyClose{
+font-size:14px;
+line-height:14px;
+right:12px;
+top:15px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+#button{
+text-align:center;
+margin:100px;
+}
+
+/*Full screen popup starts here */
+#backgroundPopupFullScreen{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#fff;
+border:1px solid #cecece;
+z-index:5000;
+}
+#popupEasyFullScreen{
+display:none;
+position:fixed !important;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+background:#FFFFFF;
+border:0px solid #cecece;
+z-index:60000;
+padding:0px;
+font-size:13px;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px #888;
+box-shadow: 0 0 7px #888; border-radius:10px;
+border:1px solid #a9a9a9;
+}
+#popupEasyFullScreen h1{
+text-align:left;
+color:#6FA5FD;
+font-size:22px;
+font-weight:700;
+border-bottom:1px dotted #D3D3D3;
+padding-bottom:2px;
+margin-bottom:20px;
+}
+#popupEasyCloseFullScreen{
+font-size:14px;
+line-height:14px;
+right:12px;
+top:15px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+#button{
+text-align:center;
+margin:100px;
+}
+
+.imagesFethced{
+	padding:10px;
+	margin:10px;
+	border:1px solid #efefef;
+	cursor:pointer;
+}
+
+.imagesFethced:hover{
+	padding:10px;
+	margin:10px;
+	border:1px solid #999999;
+	cursor:pointer;
+}
+
+.btnLoadFSP{
+	margin-left:5px;
+	cursor:pointer;
+}
+/*Full screen popup ends here */
